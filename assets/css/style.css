@@ -1,0 +1,46 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.input__container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 40%;
+}
+
+.ingreso-presupuesto__container {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: green;
+    border-radius: 20px;
+    height: 200px;
+    width: 400px;
+
+}
+
+.ingreso-gasto__container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.table__container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.table__gastos {
+    height: 100px;
+    width: 100%;
+}
+
+.item__title {
+    height: 100px;
+}
