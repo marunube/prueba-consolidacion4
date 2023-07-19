@@ -11,14 +11,14 @@
     <div class="input__container">
     <div class="ingreso-presupuesto__container">
         <h2 class="ingreso-presupuesto__title">Ingresa tu presupuesto</h2>
-        <input class="ingreso-presupuesto__input" type="text">
+        <input class="ingreso-presupuesto__input presupuesto"  id="valor" type="number">
         <button class="ingreso-presupuesto__btn">Calcular</button>
     </div>
     <div class="ingreso-gasto__container">
         <h2 class="ingreso-gasto__title-nombre">Ingresa el nombre del gasto</h2>
-        <input type="text">
+        <input class="nombreGasto" type="text">
         <h2 class="ingreso-gasto__title-cantidad">Ingresa la cantidad del gasto</h2>
-        <input type="text">
+        <input class="gasto" type="number">
         <button class="ingreso-gasto__btn">Añadir Gasto</button>
     </div>
     </div>
@@ -51,5 +51,8 @@
     </div>
     </div>
 </div>
+
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/budget.js"></script>
 </body>
 </html>

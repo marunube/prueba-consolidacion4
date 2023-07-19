@@ -2,7 +2,7 @@
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 
@@ -21,6 +21,7 @@
     border-radius: 20px;
     height: 200px;
     width: 400px;
+    margin: 20px;
 
 }
 
@@ -34,6 +35,8 @@
     display: flex;
     flex-direction: column;
     width: 40%;
+    margin-left: 40px;
+    margin: 20px;
 }
 
 .table__gastos {
@@ -43,4 +46,13 @@
 
 .item__title {
     height: 100px;
+}
+
+.ingreso-gasto__container {
+    border-style: solid;
+    border-color:red ;
+    border-radius: 20px;
+    height: 300px;
+    width: 400px;
+    margin: 20px;
 }
